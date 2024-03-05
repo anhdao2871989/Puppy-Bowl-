@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  #new-player-form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 75vh;
+    border: 10px solid rgba(7, 48, 231, 0.929);
+    margin: 0 auto;
+    margin-bottom: 2vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsX29mZmljZV8zM19zY2VuZV9vZl8zZF9pbGx1c3RyYXRpb25fbmVvbndpdGhvdXRfc2VtaS1yZV8xM2Q5OWIyOC0yN2NkLTQ1NDEtYTVmYy1lMzFkMjkxMTE4YTJfMS5qcGc.jpg);
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+
+
+.grid-div {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  column-gap: 0px;
+  justify-content: center;
+  justify-content: center;
+}
+
+.delete-button,
+.details-button,
+.back-button {
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+
+}
+
+
+header {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  align-items: end;
+  justify-content: space-evenly;
+  background-color: rgb(2, 14, 1);
+  color: rgb(34, 241, 27);
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  font-size: 25px;
+}
+
+
+
+.dog,
+.single-player-info {
+  justify-content: center;
+  align-content: center;
+  border: 2px solid black;
+  text-align: center;
+}
+
+#all-players-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.player-card {
+  width: 20vw;
+  padding: 8px;
+  margin: 8px;
+  background-color: rgb(34, 241, 27);
+
+}
+
+.player-card img {
+  width: 100%;
+}
+
+.single-player-info {
+  width: 40vw;
+  background-color: #85CB33;
+  margin-top: 15px;
+ 
+}
+
+.single-player-info img {
+  width: 100%;
+}
+
+form {
+  display: grid;
+  color: #040802;
+  ;
+  border: 5px solid black;
+  background-color: #85CB33;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+.content-container {
+  display: grid;
+  justify-content: center;
+}
